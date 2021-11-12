@@ -21,5 +21,5 @@ int main(void)
 
     }
 
-    printf("%i", k);
+    printf("%i\n", k);
 }

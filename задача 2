@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(void)
 {
     int k = 1;
@@ -9,17 +8,12 @@ int main(void)
     scanf("%i", &A);
     do
     {
-
      printf("Введіть число B: ");
      scanf("%i", &B);
-
     } while(A > B);
-
     for (int i = A; i <= B; i++)
     {
         k *= i;
-
     }
-
     printf("%i\n", k);
 }
